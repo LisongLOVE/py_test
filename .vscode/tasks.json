@@ -1,0 +1,19 @@
+﻿{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "运行Python(自动清屏)",
+            "type": "shell",
+            "command": "cls; & 'D:\\python\\python.exe' '${file}'",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "clear": true,
+                "showReuseMessage": false
+            }
+        }
+    ]
+}
